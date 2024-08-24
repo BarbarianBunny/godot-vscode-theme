@@ -82,6 +82,13 @@
       }
     },
     {
+      "name": "Signals",
+      "scope": ["meta.signal.gdscript"],
+      "settings": {
+        "foreground": "#bce0ff"
+      }
+    },
+    {
       "name": "Invalid",
       "scope": ["invalid", "invalid.illegal"],
       "settings": {
@@ -100,7 +107,7 @@
         "keyword.other.unit",
         "keyword.other",
         "keyword.operator.wordlike",
-				"variable.language.gdscript"
+        "variable.language.gdscript"
       ],
       "settings": {
         "foreground": "#ff7085"
@@ -189,11 +196,11 @@
         "entity.other.inherited-class",
         "keyword.type",
         "meta.function.gdscript",
-				"meta.variable.declaration.gdscript",
+        "meta.variable.declaration.gdscript",
         "entity.name.type.class.gdscript",
         "entity.name.type.enum",
         "entity.name.type.interface",
-				"meta.void"
+        "meta.void"
       ],
       "settings": {
         "foreground": "#42ffc2"
