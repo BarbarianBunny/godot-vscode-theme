@@ -100,7 +100,6 @@
         "keyword.other.unit",
         "keyword.other",
         "keyword.operator.wordlike",
-				"source.gdscript",
 				"variable.language.gdscript"
       ],
       "settings": {
@@ -128,7 +127,8 @@
         "punctuation.section.embedded",
         "keyword.other.template",
         "keyword.other.substitution",
-        "keyword.operator"
+        "keyword.operator",
+        "source.gdscript"
       ],
       "settings": {
         "foreground": "#abc9ff"
@@ -185,6 +185,7 @@
     {
       "name": "Class",
       "scope": [
+        "entity.name.type.class.builtin.gdscript",
         "entity.other.inherited-class",
         "keyword.type",
         "meta.function.gdscript",
